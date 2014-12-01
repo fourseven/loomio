@@ -192,4 +192,8 @@ module ApplicationHelper
   def followed_toggle_class
     'active' if sifting_followed?
   end
+
+  def show_loomio_org_marketing
+    ENV['SHOW_LOOMIO_ORG_MARKETING']
+  end
 end
